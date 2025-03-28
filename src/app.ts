@@ -5,7 +5,7 @@ import apiRoutes from './routes/api';
 const app = express();
 
 const corsOptions = {
-  origin: 'https://misunderstood-wookiees-front.onrender.com/',
+  origin: 'https://misunderstood-wookiees-front.onrender.com',
   methods: 'GET,POST,PUT,DELETE',
   allowedHeaders: 'Content-Type, Authorization',
 };
